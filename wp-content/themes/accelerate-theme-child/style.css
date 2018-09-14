@@ -1,0 +1,182 @@
+/*
+Theme Name:   Accelerate Theme Child
+Theme URI:    http://example.com/accelerate-theme-child/
+Description:  Accelerate Child Theme - Accelerate
+Author:   	Your Name!
+Author URI:   http://example.com
+Template: 	accelerate-theme
+Version:      2.0.0
+Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  accelerate-theme-child
+*/
+
+@font-face {
+    font-family: 'eleganticons';
+    src: url('/wp-content/uploads/eleganticons.eot');
+    src: url('/wp-content/uploads/eleganticons.woff') format('woff'),
+		 url('/wp-content/uploads/eleganticons.ttf') format('truetype'),
+         url('/wp-content/uploads/eleganticons.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+#main {
+	margin-bottom: 1em;
+}
+
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+}
+
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+  }
+
+#masthead nav ul li {
+    float: left;
+    margin: 0 10px;
+}
+
+  .button {
+	background: #45ac9d;
+}
+
+/* Featured Work Section */
+
+section.featured-work h4 {
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 4em;
+}
+
+section.featured-work ul li {
+	width: 29%;
+	float: left;
+	margin: 0 1em;
+	text-align: center;
+	list-style-type: none;
+}
+
+section.featured-work h3 {
+	margin: 1em 0 0.5em 0;
+}
+
+/* From the Blog Section */
+
+.blog-post {
+    width: 50%;
+    float: left;
+    margin: 3em 0 2em 0;
+}
+
+.blog-post h4 {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0 .5em;
+}
+
+.blog-post h3 {
+	font-size: 1.5em;
+}
+
+.read-more-link {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+/* Case Studies */
+
+article.case-study {
+    margin: 40px 0 0;
+}
+
+aside.case-study-sidebar {
+    float: left;
+    width: 314px;
+    margin: 0 40px 0 0;
+}
+
+aside.case-study-sidebar h2 {
+	margin-bottom: 0;
+}
+
+aside.case-study-sidebar h5 {
+	font-size: .77em;
+	text-transform: capitalize;
+	color: #bbb;
+	margin-top: 0;
+}
+
+div.case-study-images {
+    float: left;
+    width: 606px;
+}
+
+div.case-study-images img {
+    display: block;
+    margin-bottom: 90px;
+	border: 1px solid #ddd;
+	width: 100%;
+	height: auto;
+}
+
+/* NEXT / PREV STYLES */
+#navigation {
+	background: #fff;
+	border: solid #bfbfbf;
+	border-width: 1px 0 0 0;
+	clear: both;
+	font: .8em/4.08 'OpenSans', Arial, sans-serif;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	margin-bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+#navigation .left {
+	display: inline;
+	float: left;
+}
+#navigation .right {
+	display: inline;
+	float: right;
+}
+#navigation .left a,
+#navigation .right a {
+	color: #45ac9d;
+	text-decoration: none;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+#navigation .left a span,
+#navigation .right a span {
+	color: #150300;
+}
+#navigation .left a span {
+	padding-left: .5em;
+}
+#navigation .right a span {
+	padding-right: .5em;
+}
+#navigation .left a:hover,
+#navigation .right a:hover {
+	text-decoration: none;
+}
+#navigation .left a:hover span,
+#navigation .right a:hover span {
+	text-decoration: underline;
+}
+#navigation .pagination {
+	display: none;
+	color: #a6a6a6;
+}
+/* Footer */
+
+.site-footer {
+	font-family: 'eleganticons';
+    border-top: 1px solid #bfbfbf;
+    padding-top: 0;
+}
