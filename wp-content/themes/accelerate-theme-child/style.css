@@ -173,14 +173,21 @@ div.case-study-images img {
 
 .site-footer ul li {
 	list-style-type: none;
-	display: inline;
+	display: inline-block;
 	margin-right: .5em;
+	height: 2em;
+	width: 2em;
+	text-align: center;
 	background: #000;
-    color: #fff;
     border-radius: 50%;
     padding: .2em;
+}
+
+.site-footer ul li a {
+	color: #fff;
 }
 
 .site-footer ul li span {
 	display: none;
 }
+
