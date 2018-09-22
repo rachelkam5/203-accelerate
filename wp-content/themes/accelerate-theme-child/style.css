@@ -175,6 +175,10 @@ div.case-study-images img {
 	list-style-type: none;
 	display: inline;
 	margin-right: .5em;
+	background: #000;
+    color: #fff;
+    border-radius: 50%;
+    padding: .2em;
 }
 
 .site-footer ul li span {
