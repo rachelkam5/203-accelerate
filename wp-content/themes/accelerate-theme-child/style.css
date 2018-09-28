@@ -164,6 +164,60 @@ div.case-study-images img {
 	display: none;
 	color: #a6a6a6;
 }
+
+/* About Page */
+
+.about-page {
+	background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+	background-position: 0% 100%;
+	height: 18em;
+}
+
+.about-page .main-content {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.about-page h2 {
+	text-align: center;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	color: #fff;
+}
+
+.our-services .about-header {
+	width: 53%;
+	margin: 0 auto;
+}
+
+.our-services h4, .our-services p {
+	text-align: center;
+}
+
+.our-services h4 {
+	text-transform: uppercase;
+}
+
+/* Contact Us */
+
+.page-id-47368 #main {
+	margin: 0 auto;
+	width: 51%;
+}
+
+.page-id-47368 p {
+	margin-bottom: 2.5em;
+}
+
+.page-id-47368 p, .nf-form-content {
+	font-size: .9em;
+}
+
+#nf-field-4 {
+	float: right;
+	background-color: #45ac9d;
+}
+
 /* Footer */
 
 .site-footer {
@@ -171,20 +225,25 @@ div.case-study-images img {
     padding-top: 0;
 }
 
+.site-footer ul {
+	text-align: right;
+}
+
 .site-footer ul li {
 	list-style-type: none;
 	display: inline-block;
-	margin-right: .5em;
+	margin-left: .5em;
 	height: 2em;
 	width: 2em;
 	text-align: center;
 	background: #000;
     border-radius: 50%;
-    padding: .2em;
+    padding: .25em 0 0 .25em;
 }
 
 .site-footer ul li a {
 	color: #fff;
+	font-size: 1.1em;
 }
 
 .site-footer ul li span {
