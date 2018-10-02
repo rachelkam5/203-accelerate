@@ -19,6 +19,8 @@ get_header(); ?>
 		<?php  while ( have_posts() ) : the_post(); ?>
 		<?php the_content(); ?>
 		<?php endwhile; // end of the loop. ?>
+	</div><!-- .main-content -->
+</div><!-- #primary -->
 		
 <section class="our-services">
 	<div class="site-content">
@@ -28,8 +30,12 @@ get_header(); ?>
 		</div>
 		
 		<ul class="service-list">
-			<?php while ( have_posts() ) : the_post();
+			<?php 
 				$size = "thumbnail";
+				$title_1 = get_field('title_1');
+				$title_2 = get_field('title_2');
+				$title_3 = get_field('title_3');
+				$title_4 = get_field('title_4');
 				$service_1 = get_field('service_1');
 				$service_2 = get_field('service_2');
 				$service_3 = get_field('service_3');
@@ -40,27 +46,43 @@ get_header(); ?>
 				$image_4 = get_field('image_4');
 			?>
 				<li class="single-service">
-      				<p><?php echo $service_1 ?></p>
-					<?php echo wp_get_attachment_image( $image_1, $size ); ?>
+					<div class="service-pic pic-1">
+						<?php echo wp_get_attachment_image( $image_1, $size ); ?>
+					</div>
+					<div class="service-desc">
+						<h3 class="service-title"><?php echo $title_1 ?></h3>
+						<p class="desc-1"><?php echo $service_1 ?></p>
+					</div>
 				</li>
 				<li class="single-service">	
-					<?php echo wp_get_attachment_image( $image_2, $size ); ?>
-					<p><?php echo $service_2 ?></p>
+					<div class="service-desc">
+						<h3 class="service-title"><?php echo $title_2 ?></h3>
+						<p class="desc-2"><?php echo $service_2 ?></p>
+					</div>
+					<div class="service-pic pic-2">
+						<?php echo wp_get_attachment_image( $image_2, $size ); ?>
+					</div>
 				</li>
 				<li class="single-service">
-					<p><?php echo $service_3 ?></p>
-					<?php echo wp_get_attachment_image( $image_3, $size ); ?>
+					<div class="service-pic pic-3">
+						<?php echo wp_get_attachment_image( $image_3, $size ); ?>
+					</div>
+					<div class="service-desc">
+						<h3 class="service-title"><?php echo $title_3 ?></h3>
+						<p class="desc-3"><?php echo $service_3 ?></p>
+					</div>
 				</li>	
 				<li class="single-service">
-					<?php echo wp_get_attachment_image( $image_4, $size ); ?>
-					<p><?php echo $service_4 ?></p>
+					<div class="service-desc">
+						<h3 class="service-title"><?php echo $title_4 ?></h3>
+						<p class="desc-4"><?php echo $service_4 ?></p>
+					</div>
+					<div class="service-pic pic-4">
+						<?php echo wp_get_attachment_image( $image_4, $size ); ?>
+					</div>
 				</li>
-			<?php endwhile; // end of the loop. ?>
 		</ul>
 	</div>
 </section>
-
-	</div><!-- .main-content -->
-</div><!-- #primary -->
 
 <?php get_footer(); ?>
