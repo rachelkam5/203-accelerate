@@ -31,7 +31,7 @@ get_header(); ?>
 		
 		<ul class="service-list">
 			<?php 
-				$size = "thumbnail";
+				$size = "full";
 				$title_1 = get_field('title_1');
 				$title_2 = get_field('title_2');
 				$title_3 = get_field('title_3');
@@ -56,7 +56,7 @@ get_header(); ?>
 				</li>
 				<li class="single-service">	
 					<div class="service-desc">
-						<h3 class="service-title"><?php echo $title_2 ?></h3>
+						<h3 class="service-title title-2"><?php echo $title_2 ?></h3>
 						<p class="desc-2"><?php echo $service_2 ?></p>
 					</div>
 					<div class="service-pic pic-2">
@@ -74,7 +74,7 @@ get_header(); ?>
 				</li>	
 				<li class="single-service">
 					<div class="service-desc">
-						<h3 class="service-title"><?php echo $title_4 ?></h3>
+						<h3 class="service-title title-4"><?php echo $title_4 ?></h3>
 						<p class="desc-4"><?php echo $service_4 ?></p>
 					</div>
 					<div class="service-pic pic-4">
@@ -84,5 +84,12 @@ get_header(); ?>
 		</ul>
 	</div>
 </section>
+
+	<div class="work-with-us">
+		<p>Interested in working with us?</p>
+		<a class="button" href="http://localhost/accelerate/contact">Contact Us</a>
+	</div>
+</div>
+
 
 <?php get_footer(); ?>

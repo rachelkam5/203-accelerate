@@ -200,33 +200,56 @@ div.case-study-images img {
 
 .service-list {
 	list-style-type: none;
+	border-bottom: 1px solid #bfbfbf;
+	margin-left: 0;
 }
 
-.service-title {
-	margin-top: 1em;
+.service-list li {
+	overflow: auto;
+	margin-bottom: 2em;
 }
 
 .service-desc {
-	width: 70%;
+	width: 68%;
 	float: left;
-}
-
-.service-pic {
-	width: 30%;
-	float: left;
-}
-
-.desc-1, .desc-2, .desc-3, .desc-4 {
-	margin-bottom: 5em;
 }
 
 .desc-2, .desc-4 {
-	margin-right: 1em;
+	padding-right: 1em;
+}
+
+.service-pic {
+	width: 32%;
+	float: left;
 }
 
 .pic-2, .pic-4 {
-	float: right;
 	padding-top: 3em;
+	padding-left: 5em;
+}
+
+.pic-3 {
+	padding-top: 3em;
+}
+
+.work-with-us {
+	width: 41%;
+	margin: 0 auto;
+}
+
+.work-with-us p, .work-with us a {
+	float: left;
+}
+
+.work-with-us p {
+	font-weight: bold;
+	font-size: 1em;
+	margin-right: 1.5em;
+}
+
+.work-with-us a {
+	display: inline-block;
+	margin-top: .3em;
 }
 
 /* Contact Us */
