@@ -235,6 +235,7 @@ div.case-study-images img {
 .work-with-us {
 	width: 41%;
 	margin: 0 auto;
+	padding: 1em 0;
 }
 
 .work-with-us p, .work-with us a {
@@ -245,11 +246,12 @@ div.case-study-images img {
 	font-weight: bold;
 	font-size: 1em;
 	margin-right: 1.5em;
+	margin-top: .6em;
 }
 
 .work-with-us a {
 	display: inline-block;
-	margin-top: .3em;
+	margin-top: .em;
 }
 
 /* Contact Us */
