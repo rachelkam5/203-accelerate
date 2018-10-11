@@ -13,7 +13,7 @@ get_header(); ?>
     <div id="primary" class="site-content sidebar">
 		<div class="main-content" role="main">
 			<h1><span>Oops!</span> It seems you've lost your way.</h1>
-            <img src="/accelerate/wp-content/uploads/2018/10/daniel-gonzalez-602501-unsplash-768x1365.jpg" alt="Lost woman looking at map" />
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/lost-woman.jpg" alt="Lost woman looking at map" />
             <h4>No worries, we'll get you back on track.</h4>
             <p><a href="/accelerate">Go back home</a></p>
         </div><!-- .main-content -->
