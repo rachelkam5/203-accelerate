@@ -11,7 +11,7 @@ Text Domain:  accelerate-theme-child
 */
 
 #main {
-	margin-bottom: 1em;
+	margin-bottom: 0;
 }
 
 .home-page {
@@ -27,7 +27,11 @@ Text Domain:  accelerate-theme-child
     margin: 0 10px;
 }
 
-  .button {
+#navigation {
+	display: none;
+}
+
+.button {
 	background: #45ac9d;
 }
 
@@ -279,7 +283,7 @@ div.case-study-images img {
 .work-with-us {
 	width: 41%;
 	margin: 0 auto;
-	padding: 1em 0;
+	padding: 1em 0 2em 0;
 }
 
 .work-with-us p, .work-with us a {
