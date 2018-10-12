@@ -59,11 +59,15 @@ get_header(); ?>
 		</section>
 
 	<section class="twitter-module">
-		<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
-		<div id="secondary" class="widget-area" role="complementary">
-			<?php dynamic_sidebar( 'sidebar-2' ); ?>
-		</div>
+		<div class="site-content">
+			<div class="twitter-feed"
+				<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+				<div id="secondary" class="widget-area" role="complementary">
+					<?php dynamic_sidebar( 'sidebar-2' ); ?>
+					<a href="https://www.twitter.com/KamathRachel?ref_src=twsrc%5Etfw" class="follow-us">Follow Us ›</a>
+				</div>
 		<?php endif; ?>
+			</div>
+		</div>
 	</section>
-
 <?php get_footer(); ?>

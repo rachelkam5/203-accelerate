@@ -15,7 +15,7 @@ get_header(); ?>
 			<h1><span>Oops!</span> It seems you've lost your way.</h1>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/lost-woman.jpg" alt="Lost woman looking at map" />
             <h4>No worries, we'll get you back on track.</h4>
-            <p><a href="/accelerate">Go back home</a></p>
+            <p><a href="http://k203accelerate.wpengine.com">Go back home</a></p>
         </div><!-- .main-content -->
     </div><!-- #primary -->
     </section>

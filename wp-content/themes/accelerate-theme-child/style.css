@@ -77,6 +77,50 @@ section.featured-work h3 {
 	text-transform: uppercase;
 }
 
+/* Twitter module */
+.twitter-feed {
+	width: 40%;
+	float: left;
+	margin: 3em 0 2em 5em;
+}
+
+.twitter-module h3 {
+	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0 .5em;
+}
+
+span.aptf-tweet-username {
+	display: block;
+	font-family: 'Montserrat', 'Open Sans', Arial, sans-serif;
+	font-weight: 700;
+	font-size: 1.5em;
+	color: #3b3b3b;
+	margin: 1.6em 0 .8em;
+}
+
+.aptf-follow-btn {
+	display: none;
+}
+
+.aptf-timestamp {
+	display: none;
+}
+
+.twitter-module a.follow-us {
+	font-family: 'Montserrat', 'Open Sans', Arial, sans-serif;
+	color: #45ac9d;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+/* Newsletter Sign-Up Form */
+.mc4wp-form-fields input[type="submit"] {
+	background-color: #45ac9d;
+	padding-bottom: 2em;
+}
+
 /* Case Studies */
 
 article.case-study {
